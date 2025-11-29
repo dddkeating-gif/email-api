@@ -1,0 +1,15 @@
+{
+  "name": "email-api-host",
+  "version": "1.1.0",
+  "description": "Email API with Netlify Functions for sending and hosting images",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.4",
+    "node-fetch": "^2.6.7",
+    "form-data": "^4.0.0"
+  }
+}
